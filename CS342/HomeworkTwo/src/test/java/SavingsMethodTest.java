@@ -4,13 +4,17 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class SavingsMethodTest {
-    static MyMoney s1;
-    static MyMoney s2;
+    static MyMoney s1; // First constructor
+    static MyMoney s2; // First constructor
+    static MyMoney s3; // Second constructor
 
     @BeforeAll
     static void setup() {
         s1 = new MyMoney("values.txt", 8,1);
         s2 = new MyMoney("values2.txt", 8,2);
+
+        s3 = new MyMoney("values.txt","values2.txt",8,8);
+
     }
 
     @Test
@@ -28,7 +32,7 @@ class SavingsMethodTest {
     }
     @Test
     void futureValueLS_VariableInterest_2(){
-        assertEquals(144495, Math.round(SavingsFormulas.futureValueLS_VariableInterest(90000, s2.getInterestValues())));
+        assertEquals(144495, Math.round(SavingsFormulas.futureValueLS_VariableInterest(90000, s3.getInterestValues())));
     }
     @Test
     void compoundSavingsConstant_1(){
@@ -45,6 +49,6 @@ class SavingsMethodTest {
     }
     @Test
     void compoundSavingsVariable_2(){
-        assertEquals(115278, Math.round(SavingsFormulas.compoundSavingsVariable(s1.getCashValues(),0.05)));
+        assertEquals(115278, Math.round(SavingsFormulas.compoundSavingsVariable(s3.getCashValues(),0.05)));
     }
 }
