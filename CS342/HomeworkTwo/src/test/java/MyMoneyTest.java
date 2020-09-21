@@ -103,5 +103,21 @@ class MyMoneyTest {
     }
 
     //    _______________ (MyMoney Class Arrays Test)_______________
+     @Test
+    void testS1Arrays(){
+        assertNull(s1.getInterestValues()); // make sure interestValues is null
+     }
+    @Test
+    void testS2Arrays(){
+        assertNull(s2.getCashValues()); // make sure cashValues is null
+    }
+    @Test
+    void testS3CashArray(){
+        assertNotNull(s3.getCashValues()); // make sure cashValues is not null
+    }
+    @Test
+    void testS3InterestArray(){
+        assertNotNull(s3.getInterestValues()); // make sure cashValues is not null
+    }
 
 }
