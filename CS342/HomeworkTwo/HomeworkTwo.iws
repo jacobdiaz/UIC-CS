@@ -3,7 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="848ab0c9-c6f0-4cbd-9072-3ac86caedf75" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../Art151/Projects/Art151-p5DrawingMachine copy" beforeDir="false" afterPath="$PROJECT_DIR$/../../Art151/Projects/Art151-p5DrawingMachine copy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SavingsMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SavingsMethodTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeworkTwo.iws" beforeDir="false" afterPath="$PROJECT_DIR$/HomeworkTwo.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomeworkTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeworkTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HomeworkTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HomeworkTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SavingsFormulas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SavingsFormulas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/MyMoneyTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SavingsMethodTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-MyMoneyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-SavingsMethodTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MyMoneyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MyMoneyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SavingsMethodTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SavingsMethodTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,68 +28,13 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/main/java/HomeworkTwo.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="170">
-                    <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/test/java/SavingsMethodTest.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="705">
-                    <caret line="51" column="82" selection-start-line="51" selection-start-column="82" selection-end-line="51" selection-end-column="82" />
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/test/java/MyMoneyTest.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="344">
-                    <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-end-line="22" />
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                      <element signature="e#684#685#0" expanded="true" />
-                      <element signature="e#780#781#0" expanded="true" />
-                      <element signature="e#856#857#0" expanded="true" />
-                      <element signature="e#952#953#0" expanded="true" />
-                      <element signature="e#4284#4285#0" expanded="true" />
-                      <element signature="e#4339#4340#0" expanded="true" />
-                      <element signature="e#4406#4407#0" expanded="true" />
-                      <element signature="e#4488#4489#0" expanded="true" />
-                      <element signature="e#4523#4524#0" expanded="true" />
-                      <element signature="e#4601#4602#0" expanded="true" />
-                      <element signature="e#4646#4647#0" expanded="true" />
-                      <element signature="e#4728#4729#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/values.txt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/HomeworkTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -84,21 +42,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MyMoney.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2108">
-              <caret line="126" column="13" lean-forward="true" selection-start-line="126" selection-start-column="13" selection-end-line="126" selection-end-column="13" />
+            <state relative-caret-position="969">
+              <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
               <folding>
+                <element signature="e#4180#4181#0" expanded="true" />
                 <element signature="e#4204#4205#0" expanded="true" />
+                <element signature="e#4366#4367#0" expanded="true" />
                 <element signature="e#4394#4395#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/values2.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -107,30 +58,22 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/SavingsFormulas.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+              <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MyMoneyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="553">
+              <caret line="123" selection-start-line="123" selection-end-line="123" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#807#808#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
                 <element signature="e#4284#4285#0" expanded="true" />
-                <element signature="e#4339#4340#0" expanded="true" />
+                <element signature="e#4371#4372#0" expanded="true" />
                 <element signature="e#4406#4407#0" expanded="true" />
-                <element signature="e#4488#4489#0" expanded="true" />
-                <element signature="e#4519#4520#0" expanded="true" />
-                <element signature="e#4597#4598#0" expanded="true" />
-                <element signature="e#4642#4643#0" expanded="true" />
-                <element signature="e#4724#4725#0" expanded="true" />
+                <element signature="e#4484#4485#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -151,17 +94,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/SavingsFormulas.java" />
-        <option value="$PROJECT_DIR$/src/main/java/HomeworkTwo.java" />
         <option value="$PROJECT_DIR$/src/main/java/MyMoney.java" />
         <option value="$PROJECT_DIR$/src/test/java/MyMoneyTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SavingsMethodTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HomeworkTwo.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="25" />
-    <option name="width" value="960" />
-    <option name="height" value="998" />
+    <option name="width" value="1280" />
+    <option name="height" value="732" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -169,8 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,10 +161,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600658979735" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600664319387" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -315,19 +258,20 @@
     <history-entry file="MyMoneyTest - 2020.09.20 at 21h 53m 49s.xml">
       <configuration name="MyMoneyTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MyMoneyTest - 2020.09.20 at 22h 54m 05s.xml">
+      <configuration name="MyMoneyTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="960" height="998" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="25" width="1280" height="732" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11655773" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24878837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.49891067" weight="0.20472442" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3288889" />
@@ -340,6 +284,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50108933" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Multi-OS Engine" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49891067" weight="0.20472442" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -347,7 +292,7 @@
       <window_info anchor="right" id="Maven" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Flutter Inspector" order="6" />
-      <window_info anchor="right" id="Flutter Outline" order="7" />
+      <window_info anchor="right" id="Flutter Outline" order="7" weight="0.32875606" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
     </layout>
@@ -384,10 +329,14 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/SavingsMethodTest.txt">
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/SavingsMethodTest.txt" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/SavingsMethodTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -398,24 +347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HomeworkTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MyMoney.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2108">
-          <caret line="126" column="13" lean-forward="true" selection-start-line="126" selection-start-column="13" selection-end-line="126" selection-end-column="13" />
-          <folding>
-            <element signature="e#4204#4205#0" expanded="true" />
-            <element signature="e#4394#4395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/values.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -423,42 +354,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyMoney.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+          <folding>
+            <element signature="e#4180#4181#0" expanded="true" />
+            <element signature="e#4204#4205#0" expanded="true" />
+            <element signature="e#4366#4367#0" expanded="true" />
+            <element signature="e#4394#4395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SavingsFormulas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MyMoneyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-end-line="22" />
+        <state relative-caret-position="553">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
             <element signature="e#4284#4285#0" expanded="true" />
-            <element signature="e#4339#4340#0" expanded="true" />
+            <element signature="e#4371#4372#0" expanded="true" />
             <element signature="e#4406#4407#0" expanded="true" />
-            <element signature="e#4488#4489#0" expanded="true" />
-            <element signature="e#4523#4524#0" expanded="true" />
-            <element signature="e#4601#4602#0" expanded="true" />
-            <element signature="e#4646#4647#0" expanded="true" />
-            <element signature="e#4728#4729#0" expanded="true" />
+            <element signature="e#4484#4485#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SavingsMethodTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/HomeworkTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="51" column="82" selection-start-line="51" selection-start-column="82" selection-end-line="51" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
