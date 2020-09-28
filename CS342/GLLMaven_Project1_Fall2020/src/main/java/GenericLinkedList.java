@@ -253,7 +253,16 @@ class GenericLinkedList<T> implements Iterable<T> {
             return listIt;
         } // Returns a list-terator of the elements of this list starting at the specified position
 
-        //public Iterator<T> descendingIterator( ){
-
-        //} //returns an iterator over the elements of the list in reverse order( tail to head)
+        public Iterator<T> descendingIterator( ){
+            // Traverse to the end of the list
+            // Create a ReverseGLLIterator
+            // Pass in the last node as the argument to the revIT constructor
+            // Return the revIt
+                Node<T> current = head;
+                while(current.next != null){
+                    current = current.next;
+                }
+            ReverseGLLIterator<T> revIt = new ReverseGLLIterator<T>(current);
+            return revIt;
+        } //returns an iterator over the elements of the list in reverse order( tail to head)
 }

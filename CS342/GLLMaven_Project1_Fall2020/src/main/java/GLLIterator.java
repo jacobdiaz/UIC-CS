@@ -10,7 +10,7 @@ public class GLLIterator<T> implements Iterator<T> {
 
     @Override
     public boolean hasNext() {
-        if (head == null) { // If the node is null  it doesnt have next
+        if (head.next == null) {
             return false;
         }
         return true;
@@ -19,7 +19,7 @@ public class GLLIterator<T> implements Iterator<T> {
     @Override
     public T next() {
         T data = head.data;
-        head = head.next;
+        head = head.prev;
         return data;
     }
 
