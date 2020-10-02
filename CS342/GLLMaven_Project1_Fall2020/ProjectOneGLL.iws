@@ -4,8 +4,6 @@
     <list default="true" id="7ce2cf2e-91c4-4972-8220-dac66dfc3655" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../Art151/Projects/Art151-p5DrawingMachine copy" beforeDir="false" afterPath="$PROJECT_DIR$/../../Art151/Projects/Art151-p5DrawingMachine copy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../CS251" beforeDir="false" afterPath="$PROJECT_DIR$/../../CS251" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GenericLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GenericLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReverseGLLIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReverseGLLIterator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -129,8 +127,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="y" value="57" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="422" />
+    <option name="y" value="25" />
     <option name="width" value="1280" />
     <option name="height" value="689" />
   </component>
@@ -256,7 +255,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="57" width="1280" height="689" extended-state="0" />
+    <frame x="422" y="25" width="1280" height="689" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32229403" />
