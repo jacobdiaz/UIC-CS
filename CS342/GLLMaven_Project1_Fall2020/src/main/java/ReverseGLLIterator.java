@@ -2,12 +2,10 @@ import java.util.Iterator;
 
 public class ReverseGLLIterator<T> implements Iterator<T> {
     public GenericLinkedList<T>.Node<T> head; // used for traversal
-    private GenericLinkedList<T>.Node<T> constHead; // always point to head
 
     // Constructor
     public ReverseGLLIterator(GenericLinkedList.Node pointToHead) {
         this.head = pointToHead;
-        this.constHead = pointToHead;
     }
 
     @Override

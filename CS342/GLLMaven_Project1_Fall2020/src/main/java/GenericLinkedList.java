@@ -129,7 +129,7 @@ class GenericLinkedList<T> implements Iterable<T> {
         }
     } //  removes the first occurrence of the specified element and returns true or returns false if the element does not exist.
 
-    private void deleteNode(Node<T> del) {
+    public void deleteNode(Node<T> del) {
         // Base case
         if (head == null || del == null) {
             return;
