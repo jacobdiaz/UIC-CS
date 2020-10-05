@@ -1,5 +1,6 @@
 // Jacob Diaz
 // jdiaz88@uic.edu
+// https://youtu.be/HUKLe-yWqe0
 
 #include <LiquidCrystal.h>
 // Pins for screen
@@ -28,24 +29,24 @@ void loop() {
 void determineLight( int lightValue ){
   delay(10);
 
-    // 0 < dark < 5000
+    // 0 < dark < 799
     if(inRange(0 , 799, lightValue)) {
-      lcd.println("dar");
+      lcd.println("dark");
       }
     
-    //5001 < partially dark <8000
+    //800 < partially dark <899
      if(inRange(800 , 899, lightValue)) {
-      lcd.println("partiallydark");
+      lcd.println("partially dark");
       } 
-    //8001 < medium < 8500
+    //900 < medium < 949
      if(inRange(900, 949, lightValue)) {
       lcd.println("medium");
       } 
-    //8501 < partially light <9200 
+    //950 < partially light <969 
     if(inRange(950 , 969, lightValue)) {
       lcd.println("partially lit");
       } 
-    // 9201 << fully lit << 10000
+    // 970 << fully lit << 1000
     if(inRange(970 , 1000, lightValue)) {
       lcd.println("fully lit");
       }
@@ -56,7 +57,6 @@ void determineLight( int lightValue ){
 
  
  // Returns true if x is in range [low..high], else false 
-bool inRange(unsigned low, unsigned high, unsigned x) 
-{ 
+bool inRange(unsigned low, unsigned high, unsigned x) { 
     return  ((x-low) <= (high-low)); 
 } 
