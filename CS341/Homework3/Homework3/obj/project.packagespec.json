@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/Jacob/Downloads/TheHub/UniversityOfIllinois-CS/CS341/Homework3/Homework3/Homework3.fsproj",
+    "projectUniqueName": "/Users/Jacob/LocalGit/UIC-CS/CS341/Homework3/Homework3/Homework3.fsproj",
     "projectName": "Homework3",
-    "projectPath": "/Users/Jacob/Downloads/TheHub/UniversityOfIllinois-CS/CS341/Homework3/Homework3/Homework3.fsproj",
-    "outputPath": "/Users/Jacob/Downloads/TheHub/UniversityOfIllinois-CS/CS341/Homework3/Homework3/obj/",
+    "projectPath": "/Users/Jacob/LocalGit/UIC-CS/CS341/Homework3/Homework3/Homework3.fsproj",
+    "outputPath": "/Users/Jacob/LocalGit/UIC-CS/CS341/Homework3/Homework3/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
