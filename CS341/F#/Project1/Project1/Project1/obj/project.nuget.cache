@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FZ+Xnrkg9IH8YKNpVrcaDB403vgSfonS2S6x/DBtFBojqJB/5KUAhhBj7N+E5JiYWf6SEB+frT0zybpihfQ/lg==",
+  "success": true,
+  "projectFilePath": "/Users/Jacob/LocalGit/UIC-CS/CS341/F#/Project1/Project1/Project1/Project1.fsproj",
+  "expectedPackageFiles": [
+    "/Users/Jacob/.nuget/packages/fsharp.core/4.7.2/fsharp.core.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}

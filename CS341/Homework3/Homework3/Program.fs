@@ -6,15 +6,21 @@ open System
 let main argv =
 
 // List from 1 - 6
-let list1 = [ 1..6 ] 
+let list1 = [ 1;2;3;4;6 ] 
 
-// Take the list and split it into two lists by odd and even indexs
-let splitList list = List.foldBack (fun x (l,r) -> x::r, l) list ([],[]) // 
 
-// Take that list and add the corresponding indexes
-let addTwoLists L1 L2 =
-    match L1 with
-    | [] -> [] // add until u two empty lists
-    | h::[] -> L1
-    | h::t -> 
+let max list =
+    List.head L
+    helper(list L)
+
+
+let rec helper (l, m) = 
+    match l, m with
+    | [], m -> m
+    | (l1 :: rest), m -> 
+        let max1 = if l1 > m then l1 else m
+        helper(rest, max1)
+
+max list1 
+
 0
