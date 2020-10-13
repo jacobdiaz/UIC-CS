@@ -20,7 +20,6 @@ module Project01_10
 let zip L1 L2 =
     []     //   TO BE IMPLEMENTED
 
-
 //[<EntryPoint>]
 let main argv =
     printfn "Testing Project 10: zip"

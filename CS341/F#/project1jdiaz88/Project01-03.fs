@@ -14,10 +14,15 @@ module Project01_03
 // You may not call List.min directly in your solution.
 // 
 
+let rec helper (list, maxSoFar) = 
+        match list, maxSoFar with
+        | [], maxSoFar -> maxSoFar
+        | (hd :: tail), maxSoFar -> 
+        let maxVal = if hd < maxSoFar then hd else maxSoFar
+        helper(tail, maxVal)
 let min L =
-    List.head L      //   TO BE IMPLEMENTED
-
-
+        helper(L, L.Head)
+        
 //[<EntryPoint>]
 let main argv =
     printfn "Testing Project 03: min"

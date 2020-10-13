@@ -15,8 +15,12 @@ module Project01_04
 // You may not call List.nth, List.Item, .[], etc directly in your solution.
 // 
 
-let rec nth L n =
-    List.head L      //   TO BE IMPLEMENTED
+let rec nth (L: 'a list) (n: int) =
+        match n ,L with
+        | 0, (hd::_) -> hd // index is 0 when your at the head return the head
+        | _, (_::tl) -> nth tl (n-1)
+        | _, [] -> invalidArg "index (n)" "index is out of bounds" 
+    
 
 //[<EntryPoint>]
 let main argv =

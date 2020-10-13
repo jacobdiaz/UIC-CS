@@ -40,8 +40,10 @@ let matchTuples a b =
 //           length ["List"; "of"; "strings"] => 3
 //
 
-let rec length L =
-    0     //   TO BE IMPLEMENTED
+let rec length valueList = 
+        match valueList with
+        | [] -> 0 
+        | _ :: tail -> 1 + length tail     //   TO BE IMPLEMENTED
 
 //------------------------------------------------------------
 
@@ -62,8 +64,14 @@ let rec length L =
 //           max ['a'; 'e'; 'c'] => e
 //
 
+let rec maxHelper (l, m) = 
+        match l, m with
+        | [], m -> m
+        | (l1 :: rest), m -> 
+        let max1 = if l1 > m then l1 else m
+        maxHelper(rest, max1)
 let max L =
-    List.head L     //   TO BE IMPLEMENTED
+        maxHelper(L, L.Head)
 
 //-------------------------------------------------------------
 
@@ -83,9 +91,14 @@ let max L =
 //           min ['d', 'r', 'b'] => b
 //
 
+let rec minHelper (list, maxSoFar) = 
+        match list, maxSoFar with
+        | [], maxSoFar -> maxSoFar
+        | (hd :: tail), maxSoFar -> 
+        let maxVal = if hd < maxSoFar then hd else maxSoFar
+        minHelper(tail, maxVal)
 let min L =
-    List.head L      //   TO BE IMPLEMENTED
-
+        minHelper(L, L.Head)
 //-------------------------------------------------------------
 
 // The function nth returns the value of the element at index n of the list and should be written in the Project01-04.fs file.
@@ -104,9 +117,12 @@ let min L =
 //           nth ['q'; 'w'; 'e'; 'r'; 't'; 'y'] 5 =>'y'
 // You may not call List.nth, List.Item, .[], etc directly in // your solution.
 
-let rec nth L n =
-    List.head L      //   TO BE IMPLEMENTED
-
+let rec nth (L: 'a list) (n: int) =
+        match n ,L with
+        | 0, (hd::_) -> hd // index is 0 when your at the head return the head
+        | _, (_::tl) -> nth tl (n-1)
+        | _, [] -> invalidArg "index (n)" "index is out of bounds" 
+    
 //-------------------------------------------------------------
 
 // The function map returns a new list created from the elements of the list passed in (L), after they have been transformed
@@ -126,8 +142,14 @@ let rec nth L n =
 //           map (fun c-> (char ((int c)+1))) ['a';'b';'c']  => ['b';'c';'d']
 //
 
-let map F L =
-    []     //   TO BE IMPLEMENTED
+let map Fn list =
+        let rec innerFun Fn list acc =
+            match list with
+            | [] -> acc  
+            | head :: tail ->
+                let newHead = Fn head // Perform Fn on head
+                innerFun Fn tail (newHead :: acc)   // Call inner fun with tail
+        innerFun Fn list [] |> List.rev // accumulator is a list
 
 
 //-------------------------------------------------------------
@@ -146,8 +168,11 @@ let map F L =
 //           iter (fun x -> printfn "Iterating...") []              =>
 //
 
-let iter F L =
-    ()      //   TO BE IMPLEMENTED
+let rec iter fn list =
+    match list with
+    | [] -> ()
+    | hd::tl -> fn hd;
+                iter fn tl;; 
 
 //-------------------------------------------------------------
 

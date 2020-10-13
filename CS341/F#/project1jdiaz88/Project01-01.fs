@@ -15,9 +15,10 @@ module Project01_01
 // You may not call List.length directly in your solution.
 //
 
-let rec length L =
-    0     //   TO BE IMPLEMENTED
-
+let rec length valueList = 
+        match valueList with
+        | [] -> 0 
+        | _ :: tail -> 1 + length tail
 
 //[<EntryPoint>]
 let main argv =

@@ -13,9 +13,11 @@ module Project01_06
 // You may not call List.iter directly in your solution.
 // 
 
-let iter F L =
-    ()      //   TO BE IMPLEMENTED
-
+let rec iter fn list =
+    match list with
+    | [] -> ()
+    | hd::tl -> fn hd;
+                iter fn tl;; 
 
 //[<EntryPoint>]
 let main argv =

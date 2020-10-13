@@ -23,20 +23,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3370d33-06d7-423c-a5e3-49462b90e35e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsoleApp1/Project01-01.fs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsoleApp1/Project01-02.fs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsoleApp1/Project01-03.fs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsoleApp1/Project01-04.fs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsoleApp1/Project01-05.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Homework3/Homework3/Program.fs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Homework3/Homework3/Program.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../CS362/Project/Arduino-Security-System" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../CS362/Project/Arduino-Security-System" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project 01 template code Fall 2/.idea/.idea.Project 01 template code Fall 2.dir/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleApp1/Project01-06.fs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleApp1/Project01-08.fs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsoleApp1/Project01-09.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project 01 template code Fall 2/Program.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project 01 template code Fall 2/Project01-01.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project 01 template code Fall 2/Project01-02.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project 01 template code Fall 2/Project01-03.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project 01 template code Fall 2/Project01-04.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project 01 template code Fall 2/Project01-05.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project 01 template code Fall 2/Project01-06.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project 01 template code Fall 2/Project01-07.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project 01 template code Fall 2/Project01-08.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project 01 template code Fall 2/Project01-09.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project 01 template code Fall 2/Project01-10.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project 01 template code Fall 2/Project01-11.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project 01 template code Fall 2/Project01-12.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project 01 template code Fall 2/Project01-13.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project 01 template code Fall 2/Project01-14.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project 01 template code Fall 2/Project01-15.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project 01 template code Fall 2/Project01-16.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project 01 template code Fall 2/Project01-17.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project 01 template code Fall 2/Project01-18.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project 01 template code Fall 2/Project01-19.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project 01 template code Fall 2/Project01-20.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project 01 template code Fall 2/Project01-ALL.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project1/Project1/.idea/.idea.Project1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project1/Project1/.idea/.idea.Project1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/ConsoleApp1.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/ConsoleApp1.fsproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/Program.fs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/Program.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/Project01-05.fs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/Project01-05.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp3.1/ConsoleApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp3.1/ConsoleApp1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp3.1/ConsoleApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp3.1/ConsoleApp1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp3.1/ConsoleApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp3.1/ConsoleApp1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp3.1/ConsoleApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp3.1/ConsoleApp1.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +75,13 @@
         <option value="$PROJECT_DIR$/ConsoleApp1/Project01-02.fs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/Project01-03.fs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/Project01-04.fs" />
-        <option value="$PROJECT_DIR$/ConsoleApp1/Program.fs" />
+        <option value="$PROJECT_DIR$/ConsoleApp1/Project01-06.fs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/Project01-05.fs" />
+        <option value="$PROJECT_DIR$/ConsoleApp1/Project01-08.fs" />
+        <option value="$PROJECT_DIR$/ConsoleApp1/Project01-10.fs" />
+        <option value="$PROJECT_DIR$/ConsoleApp1/Project01-07.fs" />
+        <option value="$PROJECT_DIR$/ConsoleApp1/Program.fs" />
+        <option value="$PROJECT_DIR$/ConsoleApp1/Project01-09.fs" />
       </list>
     </option>
   </component>
@@ -104,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602296056300</updated>
-      <workItem from="1602296071399" duration="7492000" />
+      <workItem from="1602296071399" duration="25092000" />
     </task>
     <servers />
   </component>
@@ -126,5 +153,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="125" width="440" height="534" key="VCS.FileHistoryDialog" timestamp="1602519296719">
+      <screen x="0" y="25" width="1280" height="735" />
+    </state>
+    <state x="100" y="125" width="440" height="534" key="VCS.FileHistoryDialog/0.25.1280.735@0.25.1280.735" timestamp="1602519296719" />
   </component>
 </project>

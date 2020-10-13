@@ -15,8 +15,14 @@ module Project01_05
 // You may not call List.map directly in your solution.
 // 
 
-let map F L =
-    []     //   TO BE IMPLEMENTED
+let map Fn list =
+        let rec innerFun Fn list acc =
+            match list with
+            | [] -> acc  
+            | head :: tail ->
+                let newHead = Fn head // Perform Fn on head
+                innerFun Fn tail (newHead :: acc)   // Call inner fun with tail
+        innerFun Fn list [] |> List.rev // accumulator is a list
 
 
 //[<EntryPoint>]

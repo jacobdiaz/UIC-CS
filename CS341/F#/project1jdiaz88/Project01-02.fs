@@ -14,9 +14,14 @@ module Project01_02
 // You may not call List.max directly in your solution.
 // 
 
+let rec helper (l, m) = 
+        match l, m with
+        | [], m -> m
+        | (l1 :: rest), m -> 
+        let max1 = if l1 > m then l1 else m
+        helper(rest, max1)
 let max L =
-    List.head L     //   TO BE IMPLEMENTED
-
+        helper(L, L.Head)
 
 //[<EntryPoint>]
 let main argv =
@@ -48,5 +53,4 @@ let main argv =
     
     printfn ""
     0 // return an integer exit code
-    
-
+   
