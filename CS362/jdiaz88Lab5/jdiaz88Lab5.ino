@@ -1,6 +1,6 @@
 // Jacob Diaz
 // jdiaz88@uic.edu
-// link here
+// https://youtu.be/dWhYnOOLlxM
 
 // Photoresistor
 const int pResistor = A0;

@@ -17,7 +17,12 @@ module Project01_08
 // 
 
 let rec fold F start L =
-    start    //   TO BE IMPLEMENTED
+    match L with
+    | [] -> start // If there is an empty list return the start
+    | head::tail ->
+        let acc = F start head 
+        fold F acc tail
+    
 
 
 //[<EntryPoint>]

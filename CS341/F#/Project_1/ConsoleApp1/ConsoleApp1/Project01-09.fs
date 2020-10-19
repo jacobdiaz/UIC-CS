@@ -17,11 +17,19 @@ module Project01_09
 // 
 // 
 
-let rec flatten =
-    function
-    | [], ys -> ys
-    | xs, [] -> xs
-    | x::xs, y::ys -> flatten(x :: flatten (xs,[y]), ys)
+let flatten L =
+    let rec loop L acc =
+        match L with
+        | [] -> acc
+        | list::tail ->
+            let newList = list @ acc // Concatonates list with acccumulator
+            loop tail newList 
+                
+                
+        
+    loop L [] 
+    
+    
 
 //[<EntryPoint>]
 let main argv =

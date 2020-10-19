@@ -15,8 +15,10 @@
         <e p="Project01-04.fs" t="Include" />
         <e p="Project01-05.fs" t="Include" />
         <e p="Project01-06.fs" t="Include" />
+        <e p="Project01-07.fs" t="Include" />
         <e p="Project01-08.fs" t="Include" />
         <e p="Project01-09.fs" t="Include" />
+        <e p="Project01-10.fs" t="Include" />
       </e>
       <e p="ConsoleApp1.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />

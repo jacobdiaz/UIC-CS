@@ -13,7 +13,9 @@
         <Compile Include="Project01-05.fs" />
         <Compile Include="Project01-06.fs" />
         <Compile Include="Project01-08.fs" />
+        <Compile Include="Project01-07.fs" />
         <Compile Include="Project01-09.fs" />
+        <Compile Include="Project01-10.fs" />
         <Compile Include="Program.fs" />
     </ItemGroup>
 
