@@ -1,5 +1,7 @@
 package sample;
 import javafx.application.Application;
+import javafx.geometry.Pos;
+import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -8,39 +10,33 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 public class Main extends Application {
-
-    Button myButton , switchSceneBtn;
     Stage window;
-    Scene scene1, scene2;
-
-    @Override
-    public void start(Stage primaryStage) throws Exception{
-        primaryStage.setTitle("Java Fx Canvas");
-        StackPane layout = new StackPane();
-        myButton = new Button("Fuck You");
-        switchSceneBtn = new Button("Go to scene 2");
-//        myButton.setOnAction(this); // 'This' calls the handle method
-        
-        // Lambda Event Actions! (Works Java 8 and higher)
-        myButton.setOnAction(e->  System.out.println("Im a lambda!"));
-
-        switchSceneBtn.setOnAction(e-> window.setScene(scene2));
-        layout.getChildren().add(myButton);
-        primaryStage.setScene(new Scene(layout, 900, 875));
-        primaryStage.show();
-    }
-
-//    @Override
-//    public void handle(ActionEvent event){
-//        if(event.getSource() == myButton){ // Event Source returns who called handle event
-//            System.out.println("Fuck you too!");
-//        }
-//    }
-
 
     public static void main(String[] args) {
         launch(args);
     } // Launch sets things up and then calls Start
+
+    @Override
+    public void start(Stage primaryStage) throws Exception{
+        window = primaryStage;
+    window.setTitle("Alert Box Demo");
+
+    Button btn1 = new Button("Click Me!");
+    btn1.setOnAction( e-> Modal.display("Modal", "Model Demo"));
+
+    Button btn2 = new Button("Confirm Box");
+    btn2.setOnAction(e->ConfirmBox.display("Confirm Box", "Are you sure you want to confirm"));
+
+    VBox layout = new VBox(20);
+    layout.getChildren().addAll(btn1,btn2);
+    layout.setAlignment(Pos.CENTER);
+
+    Scene scene = new Scene(layout, 400,500);
+    window.setScene(scene);
+    window.show();
+    }
+
 }
