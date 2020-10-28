@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1271c4cf-c93a-4b9f-b2c5-501a34aa8095" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../project3/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS341/F#/LearningF#/FSharpKoans" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CS341/F#/LearningF#/FSharpKoans" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GLLMaven_Project1_Fall2020/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GLLMaven_Project1_Fall2020/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GLLMaven_Project1_Fall2020/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GLLMaven_Project1_Fall2020/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GLLMaven_Project1_Fall2020/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GLLMaven_Project1_Fall2020/ProjectOneGLL.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GLLMaven_Project1_Fall2020/ProjectOneGLL.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GLLMaven_Project1_Fall2020/ProjectOneGLL.iws" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GLLMaven_Project1_Fall2020/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GLLMaven_Project1_Fall2020/src/main/java/GLLIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GLLMaven_Project1_Fall2020/src/main/java/GLLProject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GLLMaven_Project1_Fall2020/src/main/java/GLListIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GLLMaven_Project1_Fall2020/src/main/java/GenericLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GLLMaven_Project1_Fall2020/src/main/java/ReverseGLLIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GLLMaven_Project1_Fall2020/target/classes/GLLIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GLLMaven_Project1_Fall2020/target/classes/GLLProject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GLLMaven_Project1_Fall2020/target/classes/GLListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GLLMaven_Project1_Fall2020/target/classes/GenericLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GLLMaven_Project1_Fall2020/target/classes/GenericLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GLLMaven_Project1_Fall2020/target/classes/ReverseGLLIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/HomeworkOne.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/HomeworkOne.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/HomeworkOne.iws" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/src/main/java/HomeworkOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/src/main/java/MyMoney.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/src/main/java/SavingsFormulas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/src/main/resources/values.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/src/main/resources/values2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/src/test/java/SavingsMethodTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/target/classes/HomeworkOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/target/classes/MyMoney.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/target/classes/SavingsFormulas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/target/classes/values.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/target/classes/values2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/target/surefire-reports/SavingsMethodTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/target/surefire-reports/TEST-SavingsMethodTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkOne/target/test-classes/SavingsMethodTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/HomeworkOne.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/HomeworkTwo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/HomeworkTwo.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/HomeworkTwo.iws" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/src/main/java/HomeworkTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/src/main/java/MyMoney.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/src/main/java/SavingsFormulas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/src/main/resources/values.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/src/main/resources/values2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/src/test/java/MyMoneyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/src/test/java/SavingsMethodTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/target/classes/HomeworkTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/target/classes/MyMoney.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/target/classes/SavingsFormulas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/target/classes/values.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/target/classes/values2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/target/test-classes/MyMoneyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HomeworkTwo/target/test-classes/SavingsMethodTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXCanvas/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXCanvas/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXCanvas/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXCanvas/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXCanvas/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXCanvas/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXCanvas/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXCanvas/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXCanvas/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXCanvas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaFXCanvas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXCanvas/JavaFXCanvas.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXCanvas/out/production/JavaFXCanvas/sample/ConfirmBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXCanvas/out/production/JavaFXCanvas/sample/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXCanvas/out/production/JavaFXCanvas/sample/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXCanvas/out/production/JavaFXCanvas/sample/Modal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXCanvas/out/production/JavaFXCanvas/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXCanvas/out/production/JavaFxApplication/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXCanvas/src/sample/ConfirmBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXCanvas/src/sample/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXCanvas/src/sample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXCanvas/src/sample/Modal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaFXCanvas/src/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetworkBasics/src/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetworkBasics/src/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project2/CS342_Project2_Fall2020_final(2).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/.idea/libraries/Maven__org_openjfx_javafx_base_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/.idea/libraries/Maven__org_openjfx_javafx_base_mac_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/.idea/libraries/Maven__org_openjfx_javafx_controls_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/.idea/libraries/Maven__org_openjfx_javafx_controls_mac_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/.idea/libraries/Maven__org_openjfx_javafx_graphics_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/ThejakediazNetbeans.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/nbactions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/src/main/java/project/thejakediaznetbeans/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/src/main/java/project/thejakediaznetbeans/DeveloperInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/src/main/java/project/thejakediaznetbeans/Help.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/src/main/java/project/thejakediaznetbeans/Loading.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/src/test/java/project/thejakediaznetbeans/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/target/classes/project/thejakediaznetbeans/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/target/classes/project/thejakediaznetbeans/DeveloperInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/target/classes/project/thejakediaznetbeans/Help.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/target/classes/project/thejakediaznetbeans/Loading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans 2/target/test-classes/project/thejakediaznetbeans/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/.idea/libraries/Maven__org_openjfx_javafx_base_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/.idea/libraries/Maven__org_openjfx_javafx_base_mac_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/.idea/libraries/Maven__org_openjfx_javafx_controls_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/.idea/libraries/Maven__org_openjfx_javafx_controls_mac_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/.idea/libraries/Maven__org_openjfx_javafx_graphics_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/ThejakediazNetbeans.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/nbactions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/src/main/java/project/thejakediaznetbeans/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/src/main/java/project/thejakediaznetbeans/DeveloperInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/src/main/java/project/thejakediaznetbeans/Help.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/src/main/java/project/thejakediaznetbeans/Loading.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/src/test/java/project/thejakediaznetbeans/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/target/classes/project/thejakediaznetbeans/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/target/classes/project/thejakediaznetbeans/DeveloperInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/target/classes/project/thejakediaznetbeans/Help.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/target/classes/project/thejakediaznetbeans/Loading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThejakediazNetbeans/target/test-classes/project/thejakediaznetbeans/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/HomeworkOne.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/HomeworkOne.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/HomeworkOne.iws" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/src/main/java/HomeworkOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/src/main/java/MyMoney.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/src/main/java/SavingsFormulas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/src/main/resources/values.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/src/main/resources/values2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/src/test/java/SavingsMethodTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/target/classes/HomeworkOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/target/classes/MyMoney.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/target/classes/SavingsFormulas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/target/classes/values.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/target/classes/values2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/target/surefire-reports/SavingsMethodTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/target/surefire-reports/TEST-SavingsMethodTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jdiaz88MavenJava/target/test-classes/SavingsMethodTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/Homework5/hw5_problem2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/Milestone 3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab1/CS342_HomeworkTwo (1).zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab1/CS342_HomeworkTwo.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab1/HomeworkTwo 2/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab1/HomeworkTwo 2/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab1/HomeworkTwo 2/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab1/HomeworkTwo 2/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab1/HomeworkTwo 2/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab1/HomeworkTwo 2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab1/HomeworkTwo 2/src/main/java/HomeworkTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab1/HomeworkTwo 2/src/main/java/MyMoney.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab1/HomeworkTwo 2/src/main/java/SavingsFormulas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab1/HomeworkTwo 2/src/main/resources/values.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab1/HomeworkTwo 2/src/main/resources/values2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab1/HomeworkTwo 2/src/test/java/MyMoneyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab1/HomeworkTwo 2/src/test/java/SavingsMethodTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab1/Math210Exam1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab1/hw2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab1/illustrat2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab1/jdiaz88Lab1.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab2/lab2/lab2.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab2/preLab/preLab.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab3/jdiaz88lab3.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab4/jdiaz88lab4.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab5/jdiaz88Lab5.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88Lab7/jdiaz88Lab7/jdiaz88Lab7.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CS362/jdiaz88lab6/jdiaz88lab6.ino" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/somethjin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ThreadedServer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="25" />
+    <option name="width" value="1920" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NetworkMultiThreadedSample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NetworkMultiThreadedSample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NetworkMultiThreadedSample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NetworkMultiThreadedSample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NetworkMultiThreadedSample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NetworkMultiThreadedSample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NetworkMultiThreadedSample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NetworkMultiThreadedSample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603921588526" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="open ~/LocalGit/UIC-CS/CS342/Canvas/NetworkMultiThreadedSample/NetworkMultiThreadedSample.ipr" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="ThreadedServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1271c4cf-c93a-4b9f-b2c5-501a34aa8095" name="Default Changelist" comment="" />
+      <created>1603921298400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603921298400</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1920" height="1000" extended-state="0" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Multi-OS Engine" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295711" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadedServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11 (2)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>NetworkMultiThreadedSample</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11 (2)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
