@@ -4,9 +4,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ThreadedServer{
-
-    private ArrayList<ClientThread> cl;
-    private ArrayList<ClientRunnable> cl2;
+    private ArrayList<ClientThread> cl; // We have a list of all the threads
+    private ArrayList<ClientRunnable> cl2; // We have a list of all clientRunnables
 
     private static boolean isServer = false;
 
@@ -14,22 +13,22 @@ public class ThreadedServer{
         // TODO Auto-generated method stub
 
         ThreadedServer myNet = new ThreadedServer();
-        myNet.cl = new ArrayList<ClientThread>();
+        myNet.cl = new ArrayList<ClientThread>(); // instantiate a new array list of client threads and runnables
         myNet.cl2 = new ArrayList<ClientRunnable>();
 
+        // If the server is running
         if(isServer) {
             myNet.serverCode();
 
         }
+        // If the client is running
         else {
-
             myNet.clientCode();
         }
-
     }
 
+//    Thread check is looping throhugh the list of client threads and getting each index of the list and printing out the count and its state
     public void threadCheck(){
-
         for(int i = 0; i<cl.size(); i++) {
             ClientThread t = cl.get(i);
             System.out.println("Client #: " + t.count+ " is " +
@@ -39,7 +38,6 @@ public class ThreadedServer{
 
     //no access to Thread methods
     public void threadCheck2(){
-
         for(int i = 0; i<cl2.size(); i++) {
             ClientRunnable t = cl2.get(i);
             System.out.println("Client #: " + t.count);
@@ -53,20 +51,22 @@ public class ThreadedServer{
         try(ServerSocket mysocket = new ServerSocket(5555);){
             System.out.println("Server is waiting for a client!");
 
-            while(true) {
+            // This while loop occures each time a new thread is created
+            while(true) { //continue listening for clients FOREVER
 
-        /*	this is with class extending thread
-        threadCheck();
-		ClientThread c = new ClientThread(mysocket.accept(), count);
-		System.out.println("Server has a client!!!");
-		cl.add(c);
-		c.start();
-		*/
+            //	this is with class extending thread
+            threadCheck();
+            // Create a new thread with a socket as a param,
+//            ClientThread c = new ClientThread(mysocket.accept(), count); // accept returns a socket to a client connection
+//            System.out.println("Server has a client!!!");
+//            cl.add(c);  //add the thread
+//            c.start();// Start the thead
+
 
                 //this is with class implementing runnable
                 threadCheck2();
-                ClientRunnable cr = new ClientRunnable(mysocket.accept(), count);
-                Thread t = new Thread(cr);
+                ClientRunnable cr = new ClientRunnable(mysocket.accept(), count); // Not a thread
+                Thread t = new Thread(cr); // Java Thread
                 cl2.add(cr);
                 t.start();
 
@@ -111,45 +111,44 @@ public class ThreadedServer{
 
 }
 
-class ClientThread extends Thread{
-
+class ClientThread extends Thread{ // Creates a separate thread for each new thread
+    //  We are opennning the input and output stream on the instance of client thread rather than on the server code itself
     Socket connection;
     int count;
     ObjectInputStream in;
     ObjectOutputStream out;
 
     ClientThread(Socket s, int count){
-        this.connection = s;
+        this.connection = s; // We are getting the socket that is connected to the client
         this.count = count;
-
     }
 
-    public void run(){
-
+    public void run(){ // when you extend thread you must implement a run. Run gets called in the .start() method
+        // When run ClientThread.run gets called we are creating a new thread
+        // Thread has a in and outstream
+        // Has setTcpNoDelay to true
         try {
             in = new ObjectInputStream(connection.getInputStream());
             out = new ObjectOutputStream(connection.getOutputStream());
             connection.setTcpNoDelay(true);
-
         }
         catch(Exception e) {
             System.out.println("Streams not open");
         }
 
-
-
-        while(true) {
+        while(true) { //while the client is connected
             try {
-                String data = in.readObject().toString();
+                String data = in.readObject().toString(); //listen for a incoming any data from the in stream
                 System.out.println("Server received: " + data + " from client: " + count);
-                out.writeObject(data.toUpperCase());
+                out.writeObject(data.toUpperCase()); // send back the string in CAPS to the out stream
             }
             catch(Exception e) {
                 System.out.println("OOOOPPs...Something wrong with the socket from client: " + count + "....closing down!");
-                break;
+                break; //When the run method returns that is the end of our thread.
             }
         }
     }
+
 }
 
 class ClientRunnable implements Runnable{
