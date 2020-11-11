@@ -18,7 +18,6 @@ import javafx.stage.WindowEvent;
 import java.util.HashMap;
 
 public class GuiServer extends Application{
-
 	
 	TextField s1,s2,s3,s4, c1;
 	Button serverChoice,clientChoice,b1;

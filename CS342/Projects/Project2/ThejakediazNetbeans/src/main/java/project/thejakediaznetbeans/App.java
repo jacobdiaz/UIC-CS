@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.Optional;
 
 public class App extends Application {
-    Loading loading = new Loading();
+
     Stage stage;
     final ImageView selectedImage = new ImageView();
     Label label = new Label("\n\nHello, Welcome to the Keno Game\nPrepare to loose all yo money!\n Jacob Diaz - jdiaz88@uic.edu ");
@@ -102,6 +102,7 @@ public class App extends Application {
                 won_so_far += (per_cart_spin.getValue() * 27);
             }
         }
+
         else if (select_button.size() == 4) {
             if (user_win.size() == 4){
                 won_so_far += (per_cart_spin.getValue() * 75);
