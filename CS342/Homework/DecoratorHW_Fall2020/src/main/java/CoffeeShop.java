@@ -48,7 +48,7 @@ public class CoffeeShop extends Application {
 		primaryStage.setTitle("Jacob's Coffee Shop");
 		// Create parent layout container and split into two collumns, left and right collumns
 		layout = new HBox();
-		layout.setStyle("-fx-background-image: url('bg.jpg');" +
+		layout.setStyle("-fx-background-image: url('backg.jpg');" +
 				"-fx-background-repeat: stretch;" +
 				"-fx-background-size: 900 600;" +
 				"-fx-background-position: center center;");
@@ -174,9 +174,9 @@ public class CoffeeShop extends Application {
 
 		Scene scene = new Scene(layout,width,height);
 		scene.getStylesheets().add("/stylesheet.css");
+
 		primaryStage.setScene(scene);
 		primaryStage.show();
-
 	}
 
 	// Handle all button events

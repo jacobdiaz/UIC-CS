@@ -14,6 +14,7 @@
 }
 .exit-btn{
        -fx-background-color: #F55164;
+
        -fx-background-radius: 12;
        -fx-font-size: 15;
        -fx-text-fill: white ;
@@ -76,4 +77,10 @@
 
 .background{
      -fx-background-color: #31374B;
+}
+.layout{
+    -fx-background-image: url("backg.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 900 600;
+    -fx-background-position: center center;
 }
