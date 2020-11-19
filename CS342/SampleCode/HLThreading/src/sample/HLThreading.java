@@ -11,7 +11,7 @@ import java.util.concurrent.*;
 public class HLThreading {
     public static void main(String[] args) {
         // Create a gameboard with no X's or O's
-        ArrayList<Character> gameBoard = new ArrayList<>(Arrays.asList('0','1','2','3','4','5','6','7','8'));
+        ArrayList<Character> gameBoard = new ArrayList<>(Arrays.asList('-','-','-','-','-','-','-','-','-'));
 
         // Create an executor service with a threadpool of 5 threads
         // ExecutorService allows you to have nThreads ready to go.
