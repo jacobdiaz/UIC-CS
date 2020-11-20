@@ -7,7 +7,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-public class Modes {
+public class GameModes {
     private static ArrayList<Character> gameBoard = new ArrayList<>(Arrays.asList('-','-','-','-','-','-','-','-','-'));
     private static ExecutorService ex = Executors.newFixedThreadPool(2);
     public static void noviceMode(){

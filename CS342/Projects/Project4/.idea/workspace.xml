@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../../AI_MinMax/AI_MinMax/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../AI_MinMax/AI_MinMax/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudyingMinMax/src/AI_MinMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudyingMinMax/src/GameLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../CS341/F#/LearningF#/FSharpKoans" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CS341/F#/LearningF#/FSharpKoans" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ant.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Project4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/controllers/WelcomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/userinterface/screenWelcome.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SampleCode/HLThreading/src/sample/HLThreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../SampleCode/HLThreading/src/sample/HLThreading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudyingMinMax/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StudyingMinMax/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudyingMinMax/out/production/StudyingMinMax/AI_MinMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/../StudyingMinMax/out/production/StudyingMinMax/AI_MinMax.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudyingMinMax/out/production/StudyingMinMax/GameLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudyingMinMax/out/production/StudyingMinMax/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../StudyingMinMax/out/production/StudyingMinMax/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudyingMinMax/out/production/StudyingMinMax/Modes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudyingMinMax/out/production/StudyingMinMax/NoviceCall.class" beforeDir="false" afterPath="$PROJECT_DIR$/../StudyingMinMax/out/production/StudyingMinMax/NoviceCall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudyingMinMax/src/AI_MinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StudyingMinMax/src/AI_MinMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudyingMinMax/src/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StudyingMinMax/src/GameUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudyingMinMax/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StudyingMinMax/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudyingMinMax/src/Modes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StudyingMinMax/src/GameModes.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -186,7 +185,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605809497081" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605849818241" />
     <property name="dynamic.classpath" value="false" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
