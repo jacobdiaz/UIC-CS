@@ -1,0 +1,86 @@
+// ColorPallete
+// Rose: F55164
+// Dark Navy: 31374B
+// Light Navy: 4E596F
+// Light Grey: ACB1BC
+
+.item-btn{
+       -fx-background-color: #F55164;
+       -fx-min-height: 120;
+       -fx-min-width: 120;
+       -fx-background-radius: 12;
+       -fx-font-size: 15;
+       -fx-text-fill: white ;
+}
+.exit-btn{
+       -fx-background-color: #F55164;
+
+       -fx-background-radius: 12;
+       -fx-font-size: 15;
+       -fx-text-fill: white ;
+}
+.item-btn:hover{
+       -fx-background-color: #B53241;
+       -fx-cursor: hand;
+}
+
+.h1{
+     -fx-text-fill: #FFFFFF;
+       -fx-font-weight: bolder;
+       -fx-font-size: 24;
+       -fx-text-alignment: left;
+}
+.h2{
+     -fx-text-fill: #FFFFFF;
+        -fx-font-weight: 600;
+        -fx-font-size: 18;
+ }
+
+ .order-label{
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 16;
+ }
+
+ .total-label{
+     -fx-text-fill: #FFFFFF;
+     -fx-font-size: 16;
+ }
+.order-card{
+        -fx-background-color: #4E596F;
+        -fx-background-radius: 12;
+}
+
+.btn-row{
+    -fx-translate-x: -20;
+    -fx-translate-y: 20;
+}
+.delete-order-btn{
+      -fx-background-radius: 0 0 0 12;
+     -fx-text-fill: #FFFFFF;
+     -fx-font-size: 16;
+     -fx-background-color: #ACB1BC;
+}
+.delete-order-btn:hover{
+       -fx-background-color: #848484;
+       -fx-cursor: hand;
+}
+.order-btn{
+      -fx-background-radius: 0 0 12 0;
+     -fx-text-fill: #FFFFFF;
+     -fx-font-size: 16;
+     -fx-background-color: #F55164;
+}
+.order-btn:hover{
+       -fx-background-color: #B53241;
+       -fx-cursor: hand;
+}
+
+.background{
+     -fx-background-color: #31374B;
+}
+.layout{
+    -fx-background-image: url("backg.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 900 600;
+    -fx-background-position: center center;
+}
