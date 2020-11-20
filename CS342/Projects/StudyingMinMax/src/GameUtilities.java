@@ -70,4 +70,14 @@ public class GameUtilities {
         System.out.println(gameBoard.get(6)+ " "+gameBoard.get(7)+" "+gameBoard.get(8));
     }
 
+    String getStringRepresentation(ArrayList<Character> list)
+    {
+        StringBuilder builder = new StringBuilder(list.size());
+        for(Character ch: list)
+        {
+            builder.append(ch);
+        }
+        return builder.toString();
+    }
+
 }
