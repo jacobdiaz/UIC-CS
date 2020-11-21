@@ -53,6 +53,6 @@ public class BoardController {
 
     public void playGame(){
         GameModes game = new GameModes();
-        game.novice();
+        GameModes.novice();
     }
 }

@@ -58,7 +58,6 @@ public class AI_MinMax {
 
         boardParsed = blankBoard.split(delim);
         //userInput.close();   	  						//close scanner
-
         return boardParsed;
     }
 
