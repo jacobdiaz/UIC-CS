@@ -1,0 +1,48 @@
+/*
+Colour Palette
+Blue   -> #08BFFC
+Pink   -> #F33B68
+Purple -> #682DD7
+*/
+
+.splash-background {
+    -fx-background-image: url("splashbg.png");
+}
+.bg{
+    -fx-background-image: url("bg.png");
+}
+.logo{
+    -fx-background-image: url("logo.png");
+}
+.mode-btn{
+    -fx-background-color: #F33B68;
+    -fx-min-height: 40;
+    -fx-min-width: 100;
+    -fx-text-fill: white;
+}
+.mode-btn:hover{
+     -fx-cursor: hand;
+     -fx-background-color: #CB3459;
+}
+.lets-play-btn{
+    -fx-background-color: #965FFF;
+    -fx-min-height: 40;
+    -fx-min-width: 350;
+    -fx-text-fill: white;
+}
+.lets-play-btn:hover{
+     -fx-cursor: hand;
+     -fx-background-color: #682DD7;
+}
+.X{
+        -fx-text-fill: #F33B68;
+        -fx-font-size: 90;
+}
+.O{
+        -fx-text-fill: #08BFFC;
+        -fx-font-size: 90;
+}
+.grid-border{
+        -fx-border-color: white;
+        -fx-border-width: 5;
+}

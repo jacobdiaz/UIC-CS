@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.UI.WelcomeController">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="600.0" prefWidth="900.0" styleClass="bg" stylesheets="@../resources/stylesheet.css">
+         <children>
+            <GridPane minHeight="600.0" minWidth="900.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="8.0" prefWidth="90.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/logo.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <opaqueInsets>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </opaqueInsets></VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #08BFFC; -fx-background-radius: 8;" GridPane.columnIndex="1">
+                     <children>
+                        <Label text="Let's Play" textFill="WHITE">
+                           <font>
+                              <Font name="Airbnb Cereal App Bold" size="37.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="10.0" />
+                           </padding>
+                        </Label>
+                        <Label prefWidth="360.0" text="ThisTic Tac Toe looks at two computer who play each other. Please select the mastery of each AI player." textFill="WHITE" wrapText="true">
+                           <font>
+                              <Font name="Airbnb Cereal App Light" size="18.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="10.0" />
+                           </padding>
+                        </Label>
+                        <Label prefWidth="360.0" text="Player 1" textFill="WHITE">
+                           <font>
+                              <Font name="Airbnb Cereal App Bold" size="26.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="10.0" top="10.0" />
+                           </padding>
+                        </Label>
+                        <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="200.0">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#setNovice1" styleClass="mode-btn" stylesheets="@../resources/stylesheet.css" text="Novice">
+                                 <font>
+                                    <Font name="Airbnb Cereal App Light" size="16.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets right="15.0" />
+                                 </HBox.margin>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#setMedium1" styleClass="mode-btn" stylesheets="@../resources/stylesheet.css" text="Medium">
+                                 <font>
+                                    <Font name="Airbnb Cereal App Light" size="16.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets right="15.0" />
+                                 </HBox.margin>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#setExpert1" styleClass="mode-btn" stylesheets="@../resources/stylesheet.css" text="Expert">
+                                 <font>
+                                    <Font name="Airbnb Cereal App Light" size="16.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <Label prefWidth="360.0" text="Player 2" textFill="WHITE">
+                           <font>
+                              <Font name="Airbnb Cereal App Bold" size="26.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="10.0" top="10.0" />
+                           </padding>
+                        </Label>
+                        <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="200.0">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#setNovice2" styleClass="mode-btn" stylesheets="@../resources/stylesheet.css" text="Novice">
+                                 <font>
+                                    <Font name="Airbnb Cereal App Light" size="16.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets right="15.0" />
+                                 </HBox.margin>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#setMedium2" styleClass="mode-btn" stylesheets="@../resources/stylesheet.css" text="Medium">
+                                 <font>
+                                    <Font name="Airbnb Cereal App Light" size="16.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets right="15.0" />
+                                 </HBox.margin>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#setExpert2" styleClass="mode-btn" stylesheets="@../resources/stylesheet.css" text="Expert">
+                                 <font>
+                                    <Font name="Airbnb Cereal App Light" size="16.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <Button mnemonicParsing="false" onAction="#navigateToGame" styleClass="lets-play-btn" stylesheets="@../resources/stylesheet.css" text="Play!">
+                           <VBox.margin>
+                              <Insets top="120.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="Airbnb Cereal App Bold" size="22.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </GridPane>
+         </children>
+      </Pane>
+   </children>
+</GridPane>

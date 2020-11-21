@@ -11,12 +11,13 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class Main extends Application {
+    public boolean isSplashLoaded = false;
     @Override
-    public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("userinterface/screenWelcome.fxml"));
-        primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root));
-        primaryStage.show();
+    public void start(Stage stage) throws Exception{
+        Parent root = FXMLLoader.load(getClass().getResource("UI/Board.fxml"));
+        stage.setTitle("Tic Tac Toe");
+        stage.setScene(new Scene(root));
+        stage.show();
     }
     public static void main(String[] args) {
         launch(args);

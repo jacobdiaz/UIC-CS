@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="600.0" minWidth="900.0" prefHeight="0.0" prefWidth="0.0" styleClass="bg" stylesheets="@../resources/stylesheet.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.UI.BoardController">
+   <children>
+      <GridPane layoutX="301.0" layoutY="149.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="49.0" minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="32.0" minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="100.0" minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <HBox alignment="CENTER" minHeight="100.0" minWidth="100.0" prefHeight="100.0" prefWidth="200.0" styleClass="grid-border" stylesheets="@../resources/stylesheet.css">
+               <children>
+                  <Label fx:id="l0" styleClass="X" stylesheets="@../resources/stylesheet.css" text="X" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" minHeight="100.0" minWidth="100.0" prefHeight="100.0" prefWidth="200.0" styleClass="grid-border" GridPane.rowIndex="1">
+               <children>
+                  <Label fx:id="l3" styleClass="O" stylesheets="@../resources/stylesheet.css" text="O" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" minHeight="100.0" minWidth="100.0" prefHeight="100.0" prefWidth="200.0" styleClass="grid-border" GridPane.rowIndex="2">
+               <children>
+                  <Label fx:id="l6" styleClass="X" stylesheets="@../resources/stylesheet.css" text="X" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" minHeight="100.0" minWidth="100.0" prefHeight="100.0" prefWidth="200.0" styleClass="grid-border" stylesheets="@../resources/stylesheet.css" GridPane.columnIndex="1">
+               <children>
+                  <Label fx:id="l1" styleClass="O" stylesheets="@../resources/stylesheet.css" text="O" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" minHeight="100.0" minWidth="100.0" prefHeight="100.0" prefWidth="200.0" styleClass="grid-border" stylesheets="@../resources/stylesheet.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <children>
+                  <Label fx:id="l4" styleClass="X" stylesheets="@../resources/stylesheet.css" text="X" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" minHeight="100.0" minWidth="100.0" prefHeight="100.0" prefWidth="200.0" styleClass="grid-border" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <children>
+                  <Label fx:id="l7" styleClass="O" stylesheets="@../resources/stylesheet.css" text="O" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" minHeight="100.0" minWidth="100.0" prefHeight="100.0" prefWidth="200.0" styleClass="grid-border" GridPane.columnIndex="2">
+               <children>
+                  <Label fx:id="l2" styleClass="O" stylesheets="@../resources/stylesheet.css" text="O" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" minHeight="100.0" minWidth="100.0" prefHeight="100.0" prefWidth="200.0" styleClass="grid-border" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <children>
+                  <Label fx:id="l8" styleClass="X" stylesheets="@../resources/stylesheet.css" text="X" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" minHeight="100.0" minWidth="100.0" prefHeight="100.0" prefWidth="200.0" styleClass="grid-border" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <children>
+                  <Label fx:id="l5" styleClass="X" stylesheets="@../resources/stylesheet.css" text="X" />
+               </children>
+            </HBox>
+         </children>
+      </GridPane>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/logo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="clearBoardBtn" layoutX="775.0" layoutY="518.0" mnemonicParsing="false" onAction="#clearBoardLabel" styleClass="mode-btn" text="New Game" />
+      <Button fx:id="playGameBtn" layoutX="631.0" layoutY="518.0" mnemonicParsing="false" onAction="#playGame" styleClass="mode-btn" text="Play Game" />
+   </children>
+</AnchorPane>

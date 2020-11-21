@@ -1,6 +1,8 @@
 package main;
 
 // Modes holds the logic for different game difficulties
+import main.UI.BoardController;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
@@ -26,10 +28,6 @@ public class GameModes {
 
             try {
                 Integer index = future.get();
-                gameBoard.set(index, turn); // Set the index of the array list to whos turn it is
-                System.out.println(gameBoard.get(0)+ " "+gameBoard.get(1)+" "+gameBoard.get(2));
-                System.out.println(gameBoard.get(3)+ " "+gameBoard.get(4)+" "+gameBoard.get(5));
-                System.out.println(gameBoard.get(6)+ " "+gameBoard.get(7)+" "+gameBoard.get(8));
                 hasWon = GameLogic.checkWin(gameBoard,turn);
                 ++counter;
             }catch(Exception e){System.out.println(e.getMessage());}
@@ -86,7 +84,7 @@ class NoviceCall implements Callable<Integer> { // Integer is the type of return
             else {stillLooking = false;} // Check if the spot the random generator picked is empty -> then kick out of while loop
         }
         // Once an empty space is found delay for 1 second, print out the found index that is free and return that valu
-        Thread.sleep(150);
+        Thread.sleep(400);
         System.out.println("\n" + "player: " + move + "  chooses index: "+val);
         return val;
     }
