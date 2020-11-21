@@ -2,7 +2,6 @@ package main;
 
 // Modes holds the logic for different game difficulties
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Random;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
@@ -13,12 +12,14 @@ public class GameModes {
     private static String gameBoard = "- - - - - - - - - -";
     private static String[] gameBoardParsed;
     private static String delim = "[ ]+";
-    //private static ArrayList<Character> gameBoard = new ArrayList<>(Arrays.asList('-','-','-','-','-','-','-','-','-'));
     private static ExecutorService ex = Executors.newFixedThreadPool(2);
     private static Character turn = 'x';
     private static boolean hasWon = false;
 
-    public static void novice(){
+
+
+
+    public static void novice(Consumer consumer){
         gameBoardParsed = gameBoard.split(delim);
 
         int counter = 0;
@@ -27,9 +28,18 @@ public class GameModes {
             if(counter == 9){
                 System.out.println("Tie!");
             }
-            Future<Integer> future = ex.submit(new NoviceCall(gameBoardParsed, turn));
+            Future<Integer> futureX = ex.submit(new NoviceCall(gameBoardParsed, turn));
+            consumer.setC0(gameBoardParsed[0]);
+            consumer.setC1(gameBoardParsed[1]);
+            consumer.setC2(gameBoardParsed[2]);
+            consumer.setC3(gameBoardParsed[3]);
+            consumer.setC4(gameBoardParsed[4]);
+            consumer.setC5(gameBoardParsed[5]);
+            consumer.setC6(gameBoardParsed[6]);
+            consumer.setC7(gameBoardParsed[7]);
+            consumer.setC8(gameBoardParsed[8]);
             try {
-                Integer index = future.get();
+                Integer index = futureX.get();
                 gameBoardParsed[index] = turn.toString(); // Set the index of the array list to whos turn it is
                 System.out.println(gameBoardParsed[0]+ " "+gameBoardParsed[1]+" "+gameBoardParsed[2]);
                 System.out.println(gameBoardParsed[3]+ " "+gameBoardParsed[4]+" "+gameBoardParsed[5]);
@@ -87,7 +97,7 @@ class NoviceCall implements Callable<Integer> { // Integer is the type of return
             stillLooking = board[val].equals("x") || board[val].equals("o");
         }
         // Once an empty space is found delay for 1 second, print out the found index that is free and return that valu
-        Thread.sleep(400);
+        Thread.sleep(1000);
         System.out.println("\n" + "player: " + move + "  chooses index: "+val);
         return val;
     }

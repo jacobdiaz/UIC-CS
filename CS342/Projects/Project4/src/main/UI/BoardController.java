@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.Slider;
+import main.Consumer;
 import main.GameModes;
 
 import java.util.ArrayList;
@@ -11,7 +12,6 @@ import java.util.Arrays;
 
 public class BoardController {
     private boolean isBoardCleared = false;
-
         @FXML
         public Label l0;
         @FXML
@@ -35,9 +35,6 @@ public class BoardController {
         @FXML
         public Button playGameBtn;
 
-
-
-
     public void clearBoardLabel(){
         isBoardCleared = true;
         l0.setText(" ");
@@ -52,7 +49,7 @@ public class BoardController {
     }
 
     public void playGame(){
-        GameModes game = new GameModes();
-        GameModes.novice();
+        Consumer consumer = new Consumer(l0,l1,l2,l3,l4,l5,l6,l7,l8);
+        GameModes.novice(consumer);
     }
 }

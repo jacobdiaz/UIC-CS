@@ -54,36 +54,44 @@ public class GameLogic {
     @NotNull
     public static Boolean checkWin(String[] board, Character turn){
             // 0 3 6
-        if((board[0].equals("x") && board[3].equals("x") && board[6].equals("x")) || (board[0].equals("y") && board[3].equals("y") && board[6].equals("y")) ){
+        if((board[0].equals("x") && board[3].equals("x") && board[6].equals("x")) || (board[0].equals("o") && board[3].equals("o") && board[6].equals("o")) ){
             displayWinningMessage(turn);
+            return true;
         }
             // 1 4 7
-        if((board[1].equals("x") && board[4].equals("x") && board[7].equals("x")) || (board[1].equals("y") && board[4].equals("y") && board[7].equals("y")) ){
+        if((board[1].equals("x") && board[4].equals("x") && board[7].equals("x")) || (board[1].equals("o") && board[4].equals("o") && board[7].equals("o")) ){
             displayWinningMessage(turn);
+            return true;
         }
             // 2 5 8
-        if((board[2].equals("x") && board[5].equals("x") && board[8].equals("x")) || (board[2].equals("y") && board[5].equals("y") && board[8].equals("y")) ){
+        if((board[2].equals("x") && board[5].equals("x") && board[8].equals("x")) || (board[2].equals("o") && board[5].equals("o") && board[8].equals("o")) ){
             displayWinningMessage(turn);
+            return true;
         }
             // 0 1 2
-        if((board[0].equals("x") && board[1].equals("x") && board[2].equals("x")) || (board[0].equals("y") && board[1].equals("y") && board[2].equals("y")) ){
+        if((board[0].equals("x") && board[1].equals("x") && board[2].equals("x")) || (board[0].equals("o") && board[1].equals("o") && board[2].equals("o")) ){
             displayWinningMessage(turn);
+            return true;
         }
             // 3 4 5
-        if((board[3].equals("x") && board[4].equals("x") && board[5].equals("x")) || (board[3].equals("y") && board[4].equals("y") && board[5].equals("y")) ){
+        if((board[3].equals("x") && board[4].equals("x") && board[5].equals("x")) || (board[3].equals("o") && board[4].equals("o") && board[5].equals("o")) ){
             displayWinningMessage(turn);
+            return true;
         }
             // 6 7 8
-        if((board[6].equals("x") && board[7].equals("x") && board[8].equals("x")) || (board[6].equals("y") && board[7].equals("y") && board[8].equals("y")) ){
+        if((board[6].equals("x") && board[7].equals("x") && board[8].equals("x")) || (board[6].equals("o") && board[7].equals("o") && board[8].equals("o")) ){
             displayWinningMessage(turn);
+            return true;
         }
             // 0 4 8
-        if((board[0].equals("x") && board[4].equals("x") && board[8].equals("x")) || (board[0].equals("y") && board[4].equals("y") && board[8].equals("y")) ){
+        if((board[0].equals("x") && board[4].equals("x") && board[8].equals("x")) || (board[0].equals("o") && board[4].equals("o") && board[8].equals("o")) ){
             displayWinningMessage(turn);
+            return true;
         }
             // 2 4 6
-        if((board[2].equals("x") && board[4].equals("x") && board[6].equals("x")) || (board[2].equals("y") && board[4].equals("y") && board[6].equals("y")) ){
+        if((board[2].equals("x") && board[4].equals("x") && board[6].equals("x")) || (board[2].equals("o") && board[4].equals("o") && board[6].equals("o")) ){
             displayWinningMessage(turn);
+            return true;
         }
 
         return false;

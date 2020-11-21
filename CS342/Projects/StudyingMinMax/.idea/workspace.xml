@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28327f96-e263-4738-b600-879fe3fbdfd2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Project4/src/main/Consumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../CS341/F#/LearningF#/FSharpKoans" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CS341/F#/LearningF#/FSharpKoans" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Homework/Homework5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Homework5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project4/out/production/Project4/main/AI_MinMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project4/out/production/Project4/main/AI_MinMax.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project4/out/production/Project4/main/ExpertCall.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project4/out/production/Project4/main/ExpertCall.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project4/out/production/Project4/main/GameLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project4/out/production/Project4/main/GameLogic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project4/out/production/Project4/main/GameModes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project4/out/production/Project4/main/GameModes.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project4/out/production/Project4/main/NoviceCall.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project4/out/production/Project4/main/NoviceCall.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project4/out/production/Project4/main/UI/BoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project4/out/production/Project4/main/UI/BoardController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project4/src/main/AI_MinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project4/src/main/AI_MinMax.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project4/src/main/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project4/src/main/GameLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project4/src/main/GameModes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project4/src/main/GameModes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project4/src/main/UI/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project4/src/main/UI/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../SampleCode/HLThreading/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SampleCode/HLThreading/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -191,7 +191,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605975779103" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605984032091" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -258,7 +258,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" x="0" y="53" width="640" height="711" id="Run" maximized="true" order="2" type="WINDOWED" visible="true" weight="0.5136" />
+      <window_info anchor="bottom" x="0" y="53" width="640" height="711" id="Run" order="2" type="WINDOWED" weight="0.5136" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39863715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
