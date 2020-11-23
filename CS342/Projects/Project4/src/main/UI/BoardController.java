@@ -30,6 +30,8 @@ public class BoardController {
         public Label l7;
         @FXML
         public Label l8;
+    @FXML
+    public Label winningLabel;
         @FXML
         public Button clearBoardBtn;
         @FXML
@@ -46,10 +48,11 @@ public class BoardController {
         l6.setText(" ");
         l7.setText(" ");
         l8.setText(" ");
+        winningLabel.setText(" ");
     }
 
     public void playGame(){
-        Consumer consumer = new Consumer(l0,l1,l2,l3,l4,l5,l6,l7,l8);
+        Consumer consumer = new Consumer(l0,l1,l2,l3,l4,l5,l6,l7,l8,winningLabel);
         GameModes.novice(consumer);
     }
 }
