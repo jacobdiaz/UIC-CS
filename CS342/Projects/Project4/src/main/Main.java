@@ -14,7 +14,7 @@ public class Main extends Application {
     public boolean isSplashLoaded = false;
     @Override
     public void start(Stage stage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("UI/Board.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("UI/ScreenWelcome.fxml"));
         stage.setTitle("Tic Tac Toe");
         stage.setScene(new Scene(root));
         stage.show();

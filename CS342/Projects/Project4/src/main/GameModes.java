@@ -18,7 +18,9 @@ public class GameModes {
     private static Character turn = 'x';
     private static boolean hasWon = false;
 
-
+    public static void clearBoard(){
+        gameBoard = "- - - - - - - - - -";
+    }
 
 
     public static void novice(Consumer consumer){
@@ -57,6 +59,7 @@ public class GameModes {
             }catch(Exception e){System.out.println(e.getMessage());}
             turn = GameLogic.switchTurns(turn);
         }
+        clearBoard();
         ex.shutdown();
     }
 

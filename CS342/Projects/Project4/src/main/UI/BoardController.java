@@ -49,6 +49,7 @@ public class BoardController {
         l7.setText(" ");
         l8.setText(" ");
         winningLabel.setText(" ");
+        GameModes.clearBoard();
     }
 
     public void playGame(){

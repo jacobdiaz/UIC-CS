@@ -62,7 +62,6 @@ public class GameLogic {
             Consumer.setWinningLabel(displayWinningMessage(turn));
             return true;
         }
-
         return false;
     }
 }
