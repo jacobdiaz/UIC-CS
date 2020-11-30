@@ -36,6 +36,7 @@ public class GameModes {
             // Check for tie
             if(counter == 9){
                 System.out.println("Tie!");
+                Consumer.setWinningLabel("Tie");
             }
 
             // Submit a new call to the trhead pool using novice call

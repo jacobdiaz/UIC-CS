@@ -53,6 +53,8 @@ public class BoardController {
     }
 
     public void playGame(){
+        System.out.println("Play Button pressed");
+        GameModes.clearBoard();
         Consumer consumer = new Consumer(l0,l1,l2,l3,l4,l5,l6,l7,l8,winningLabel);
         GameModes.novice(consumer);
     }
