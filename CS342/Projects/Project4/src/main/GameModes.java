@@ -1,6 +1,8 @@
 package main;
 
 // Modes holds the logic for different game difficulties
+import org.jetbrains.annotations.NotNull;
+
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.concurrent.Callable;
@@ -16,64 +18,69 @@ public class GameModes {
     private static Character turn = 'x';
     private static boolean hasWon = false;
 
-
+    public static void clearBoard(){
+        gameBoard = "- - - - - - - - - -";
+    }
 
 
     public static void novice(Consumer consumer){
+        // Instantiate gameboard
         gameBoardParsed = gameBoard.split(delim);
 
+        // Counter to keep track of out of bounds
         int counter = 0;
+
+        // While No one has won and there has been less than 9 turns
         while(!hasWon && !(counter > 9)) {
+
             // Check for tie
             if(counter == 9){
                 System.out.println("Tie!");
+                Consumer.setWinningLabel("Tie");
             }
+
+            // Submit a new call to the trhead pool using novice call
             Future<Integer> futureX = ex.submit(new NoviceCall(gameBoardParsed, turn));
-            consumer.setC0(gameBoardParsed[0]);
-            consumer.setC1(gameBoardParsed[1]);
-            consumer.setC2(gameBoardParsed[2]);
-            consumer.setC3(gameBoardParsed[3]);
-            consumer.setC4(gameBoardParsed[4]);
-            consumer.setC5(gameBoardParsed[5]);
-            consumer.setC6(gameBoardParsed[6]);
-            consumer.setC7(gameBoardParsed[7]);
-            consumer.setC8(gameBoardParsed[8]);
+
+            // This is all within the the thread
             try {
+                // Find a random square which is free
                 Integer index = futureX.get();
-                gameBoardParsed[index] = turn.toString(); // Set the index of the array list to whos turn it is
-                System.out.println(gameBoardParsed[0]+ " "+gameBoardParsed[1]+" "+gameBoardParsed[2]);
-                System.out.println(gameBoardParsed[3]+ " "+gameBoardParsed[4]+" "+gameBoardParsed[5]);
-                System.out.println(gameBoardParsed[6]+ " "+gameBoardParsed[7]+" "+gameBoardParsed[8]);
+
+                // Set that idex to whose turn it is.
+                gameBoardParsed[index] = turn.toString();
+
+                // Display to the UI and to the terminal
+                displayUI(consumer);
+                displayTerminal(gameBoardParsed);
+
+                // Check if someone has one and increment the counter
                 hasWon = GameLogic.checkWin(gameBoardParsed,turn);
                 ++counter;
             }catch(Exception e){System.out.println(e.getMessage());}
             turn = GameLogic.switchTurns(turn);
         }
+        clearBoard();
         ex.shutdown();
     }
 
-//    public static void Expert(){
-//        int counter = 0;
-//        while(!hasWon && !(counter > 9)) {
-//            // Check for tie
-//            if(counter == 9){
-//                System.out.println("Tie!");
-//            }
-//            Future<Integer> future = ex.submit(new ExpertCall(gameBoard, turn));
-//
-//            try {
-//                Integer index = future.get();
-//                gameBoard.set(index, turn); // Set the index of the array list to whos turn it is
-//                System.out.println(gameBoard.get(0)+ " "+gameBoard.get(1)+" "+gameBoard.get(2));
-//                System.out.println(gameBoard.get(3)+ " "+gameBoard.get(4)+" "+gameBoard.get(5));
-//                System.out.println(gameBoard.get(6)+ " "+gameBoard.get(7)+" "+gameBoard.get(8));
-//                hasWon = GameLogic.checkWin(gameBoard,turn);
-//                ++counter;
-//            }catch(Exception e){System.out.println(e.getMessage());}
-//            turn = GameLogic.switchTurns(turn);
-//        }
-//        ex.shutdown();
-//    }
+    public static void displayTerminal(@NotNull String[] gameBoardParsed){
+        System.out.println(gameBoardParsed[0]+ " "+gameBoardParsed[1]+" "+gameBoardParsed[2]);
+        System.out.println(gameBoardParsed[3]+ " "+gameBoardParsed[4]+" "+gameBoardParsed[5]);
+        System.out.println(gameBoardParsed[6]+ " "+gameBoardParsed[7]+" "+gameBoardParsed[8]);
+    }
+    public static void displayUI(@NotNull Consumer consumer){
+        consumer.setC0(gameBoardParsed[0]);
+        consumer.setC1(gameBoardParsed[1]);
+        consumer.setC2(gameBoardParsed[2]);
+        consumer.setC3(gameBoardParsed[3]);
+        consumer.setC4(gameBoardParsed[4]);
+        consumer.setC5(gameBoardParsed[5]);
+        consumer.setC6(gameBoardParsed[6]);
+        consumer.setC7(gameBoardParsed[7]);
+        consumer.setC8(gameBoardParsed[8]);
+    }
+
 }
 class NoviceCall implements Callable<Integer> { // Integer is the type of return method from the call() method (Must match future)
     String[] board;

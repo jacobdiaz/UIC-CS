@@ -13,9 +13,9 @@ public class Consumer {
     private Label c6 ;
     private Label c7 ;
     private Label c8 ;
-
+    public static Label winnerLabel;
     // Consumer will take in the 8 labels and, gamemodes will update the labels through the consumer... hopefully
-    public Consumer(Label l0, Label l1, Label l2, Label l3, Label l4, Label l5, Label l6, Label l7, Label l8){
+    public Consumer(Label l0, Label l1, Label l2, Label l3, Label l4, Label l5, Label l6, Label l7, Label l8, Label win){
         this.c0 = l0;
         this.c1 = l1;
         this.c2 = l2;
@@ -25,6 +25,7 @@ public class Consumer {
         this.c6 = l6;
         this.c7 = l7;
         this.c8 = l8;
+        this.winnerLabel = win;
     }
     // Label Setters
     public void setC0(String input){
@@ -76,5 +77,10 @@ public class Consumer {
         if (input.equals("x")) { return true; }
         else if (input.equals("o")){return false;}
         return false;
+        }
+
+
+    public static void setWinningLabel(String message){
+            winnerLabel.setText(message);
         }
 }
